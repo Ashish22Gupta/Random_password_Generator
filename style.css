@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+#otpg{
+    margin-top: 30vh;
+    height: 10vh;
+    width: 60vh;
+    font-size: xx-large;
+    text-align: center;
+    color: red;
+    border-radius: 2vh;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+#btg{
+    height: 10vh;
+    width:60vh;
+    font-size: xx-large;
+    border-radius: 2vh;
+    background-color: aqua;
+    color: blue;
+}
+#copy{
+    height: 10vh;
+    width:60vh;
+    font-size: xx-large;
+    border-radius: 2vh;
+    background-color:lightskyblue;
+    color: blue;
+    margin-top: 2vh;
+}

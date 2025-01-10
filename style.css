@@ -1,36 +1,53 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    background-color: black;
-}
-#otpg{
-    margin-top: 30vh;
-    height: 10vh;
-    width: 60vh;
-    font-size: xx-large;
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-    color: red;
-    border-radius: 2vh;
-    align-items: center;
-    justify-content: center;
-    background-color: blue;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
 }
-#btg{
-    height: 10vh;
-    width:60vh;
-    font-size: xx-large;
-    border-radius: 2vh;
-    background-color: aqua;
-    color: blue;
+
+h1 {
+    color: #333;
 }
-#copy{
-    height: 10vh;
-    width:60vh;
-    font-size: xx-large;
-    border-radius: 2vh;
-    background-color:lightskyblue;
-    color: blue;
-    margin-top: 2vh;
+
+p {
+    margin: 20px 0;
+}
+
+#length {
+    max-width: 200px;
+    width: 90%;
+}
+
+#otpg {
+    max-width: 300px;
+    width: 90%;
+    height: 40px;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    margin: 10px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 352px){
+    h1{
+        font-size: x-large;
+    }
 }

@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center><p><input type="text" id="otpg" name="t1" readonly></p></center>
-    <br>
-    <center>
-    <p><input type="button" id="btg" name="" value="Generate The Password" onclick="run()"></p>
-    <p><input type="button" id="copy" name="" value="Copy The Password" onclick="copy()"></p>
-    </center>
+    <h1>Password Generator</h1>
+    <p>Enter the length: 
+        <input type="range" id="length" min="4" max="20" value="12" oninput="updateLength(this.value)">
+        <span id="lengthValue">12</span>
+    </p>
+    <input type="text" id="otpg" name="t1" placeholder="Press Generate button" readonly>
+    <input type="button" id="btg" value="Generate Password" onclick="run()">
+    <input type="button" id="copy" value="Copy Password" onclick="copy()">
     <script src="script.js"></script>
 </body>
 </html>
